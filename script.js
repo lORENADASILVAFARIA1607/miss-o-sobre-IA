@@ -3,7 +3,7 @@ const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
-
+const caixaPerguntas = document(".caixa-perguntas");
 
 const perguntas = [
   
@@ -12,6 +12,11 @@ const perguntas = [
       alternativas: [
         {
           texto: "Isso é assustador!",
+          afirmacao: "No início ficou com medo do que essa tecnologia pode fazer.
+        }
+    ]
+}
+]
           afirmacao: "No início ficou com medo do que essa tecnologia pode fazer."
         },
         {
